@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <p><a href="bonus.html">BONUS</a></p>
+    <h1>Sai Rama Raju Puram</h1>
+    <h2>My Favorite City: Hyderabad</h2>
+    <p>It is <b>Telangana's</b> largest and most populous city and is the major <b>urban center</b> for all of south-central interior India.</p>
+    <hr>
+    <h3>Top Places to Visit in Hyderabad</h3>
+    <ol>
+      <li>Charminar</li>
+      <li>Golconda</li>
+      <li>TankBund</li>
+    </ol> 
+    <h3>Places Near Hyderabad to Visit</h3>
+    <ul>
+      <li>1000 Pillar Statue</li>
+      <li>Kondagattu</li>
+      <li>Srisailam
+        <ul>
+          <li>Nallamalla Forest</li>
+          <li>Wild Life Park</li>
+        </ul>
+      </li>
+    </ul>
+    <a href="myDish.html">Check out my favorite dish!</a>
+    <hr>
+<h3>Code: How to do logging in Python </h3>
+<p>Logging is a means of tracking events that happen when some software runs. The software’s developer adds logging calls to their code to indicate that certain events have occurred.</p>
+<pre>
+  import logging
+
+  logger = logging.getLogger(__name__)
+  logger.setLevel(logging.DEBUG)
+  
+  formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
+  
+  file_handler = logging.FileHandler('sample.log')
+  file_handler.setLevel(logging.ERROR)
+  file_handler.setFormatter(formatter)
+  
+  stream_handler = logging.StreamHandler()
+  stream_handler.setFormatter(formatter)
+  
+  logger.addHandler(file_handler)
+  logger.addHandler(stream_handler) 
+</pre>
+<p>Source: <a href="https://docs.python.org/3/howto/logging.html">Snippet Source</a></p>
+  </body>
+</html>
